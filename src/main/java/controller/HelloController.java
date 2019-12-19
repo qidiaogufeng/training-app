@@ -19,5 +19,8 @@ public class HelloController {
 	public String hello() {
 		return "Hello Spring!";
 	}
+	public void hi() {
+		System.out.println("hello nuc-a");
+	}
 	
 }
